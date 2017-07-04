@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/theomen"
+    tools:context="com.example.thanyani.myquizapp.Main3Activity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/iml" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:textStyle="italic"
+                android:paddingLeft="50sp"
+                android:textColor="#000000"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5sp"
+                android:text="What is a name of the first black president in SA?" />
+
+            <RadioGroup
+                android:id="@+id/group"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/ans1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Nelson Mandela" />
+
+                <RadioButton
+                    android:id="@+id/ans1a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Thabo Mbeki" />
+
+                <RadioButton
+                    android:id="@+id/ans1b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Jacob Zuma" />
+
+                <RadioButton
+                    android:id="@+id/ans1c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="5sp"
+                    android:text="Cyril Ramaphosa" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView"
+                android:textColor="#000000"
+                android:layout_width="match_parent"
+                android:paddingLeft="50sp"
+                android:textStyle="italic"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5sp"
+                android:text="When did Nelson Mandela came out of prison?" />
+
+            <RadioGroup
+                android:id="@+id/group2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/ans2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="1991" />
+
+                <RadioButton
+                    android:id="@+id/ans2a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="1994" />
+
+                <RadioButton
+                    android:id="@+id/ans2b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="2004" />
+
+                <RadioButton
+                    android:id="@+id/ans2c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5sp"
+                    android:layout_weight="1"
+                    android:text="1995" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:textStyle="italic"
+                    android:textColor="#000000"
+                    android:layout_width="wrap_content"
+                    android:paddingLeft="50sp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="When did the first election took place?" />
+
+                <RadioGroup
+                    android:id="@+id/group3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" >
+
+                    <RadioButton
+                        android:id="@+id/ans3a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="2005" />
+
+                    <RadioButton
+                        android:id="@+id/ans3b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="2014" />
+
+                    <RadioButton
+                        android:id="@+id/ans3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="1994" />
+
+                    <RadioButton
+                        android:id="@+id/ans3c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="1991" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:textColor="#000000"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="50sp"
+                    android:textStyle="italic"
+                    android:layout_weight="1"
+                    android:text="Who became president after Nelson Mandela?" />
+
+                <RadioGroup
+                    android:id="@+id/group4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" >
+
+                    <RadioButton
+                        android:id="@+id/ans4b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Julius Malema" />
+
+                    <RadioButton
+                        android:id="@+id/ans4a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Jacob Zuma" />
+
+                    <RadioButton
+                        android:id="@+id/ans4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Thabo Mbeki" />
+
+                    <RadioButton
+                        android:id="@+id/ans4c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Hellen Zille" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:textColor="#000000"
+                    android:layout_width="match_parent"
+                    android:paddingLeft="50sp"
+                    android:textStyle="italic"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Who is the deputy president of SA?" />
+
+                <RadioGroup
+                    android:id="@+id/group5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <RadioButton
+                        android:id="@+id/ans5a"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Gudani Sikhweni" />
+
+                    <RadioButton
+                        android:id="@+id/ans5b"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Lisbeth Sibeko" />
+
+                    <RadioButton
+                        android:id="@+id/ans5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Cyril Ramaphosa" />
+
+                    <RadioButton
+                        android:id="@+id/ans5c"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Julius Malema" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/back"
+                            android:layout_width="100dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/back"
+                            />
+
+                        <Button
+                            android:id="@+id/results"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:onClick="result"
+                            android:text="points" />
+
+                        <ImageView
+                            android:id="@+id/next"
+                            android:layout_width="100dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/next" />
+                    </LinearLayout>
+
+                </RadioGroup>
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

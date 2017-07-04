@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/theomen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.thanyani.myquizapp.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="550dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/wel"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/quiz"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/play"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="105dp"
+        android:layout_marginStart="105dp"
+        app:srcCompat="@drawable/play"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

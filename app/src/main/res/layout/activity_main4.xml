@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/theomen"
+    android:layout_height="match_parent"
+    tools:context="com.example.thanyani.myquizapp.Main4Activity"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="wrap_content"
+                android:layout_height="143dp"
+                app:srcCompat="@drawable/i" />
+
+            <EditText
+                android:id="@+id/name_editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:textStyle="italic"
+                android:layout_width="match_parent"
+                android:paddingLeft="50dp"
+                android:textColor="#000000"
+                android:layout_height="wrap_content"
+                android:text="When was the youth march?" />
+
+            <RadioGroup
+                android:id="@+id/grp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radYouth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="23 Jan 2006" />
+
+                <RadioButton
+                    android:id="@+id/radYouth2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="16 June 1976" />
+
+                <RadioButton
+                    android:id="@+id/radYouth3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="16 June 1990" />
+
+                <RadioButton
+                    android:id="@+id/radYouth1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="16 May 1995" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:paddingLeft="50dp"
+                android:textStyle="italic"
+                android:textColor="#000000"
+                android:layout_height="wrap_content"
+                android:text="When is the new year's day?" />
+
+            <RadioGroup
+                android:id="@+id/grp1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/radNew1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="15 January" />
+
+                <RadioButton
+                    android:id="@+id/radNew"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="10 January" />
+
+                <RadioButton
+                    android:id="@+id/radNew3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="31 December" />
+
+                <RadioButton
+                    android:id="@+id/radNew2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="01 January" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView8"
+                android:textColor="#000000"
+                android:paddingLeft="50dp"
+                android:textStyle="italic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Religious day is on the...." />
+
+            <RadioGroup
+                android:id="@+id/grp2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radRel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="27 April" />
+
+                <RadioButton
+                    android:id="@+id/radRel2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="24 september" />
+
+                <RadioButton
+                    android:id="@+id/radRel1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="25 September" />
+
+                <RadioButton
+                    android:id="@+id/radRel3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="16 December" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:paddingLeft="50dp"
+                android:textStyle="italic"
+                android:textColor="#000000"
+                android:layout_height="wrap_content"
+                android:text="Which one is the day of goodwill?" />
+
+            <RadioGroup
+                android:id="@+id/grp3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <RadioButton
+                    android:id="@+id/radWill"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="16 December" />
+
+                <RadioButton
+                    android:id="@+id/radWill1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="25 December" />
+
+                <RadioButton
+                    android:id="@+id/radWill3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="31 December" />
+
+                <RadioButton
+                    android:id="@+id/radWill2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="26 December" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:textStyle="italic"
+                android:textColor="#000000"
+                android:paddingLeft="50dp"
+                android:layout_height="wrap_content"
+                android:text="Which Month does not have holidays?" />
+
+            <RadioGroup
+                android:id="@+id/grp4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RadioButton
+                    android:id="@+id/radHol2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="February" />
+
+                <RadioButton
+                    android:id="@+id/radHol"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="January" />
+
+                <RadioButton
+                    android:id="@+id/radHol1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="March" />
+
+                <RadioButton
+                    android:id="@+id/radHol3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="June" />
+
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/back"
+                    android:layout_width="125dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/back"/>
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="wrap_content"
+                    android:background="#33ffff"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="results"
+                    android:text="results" />
+
+                <ImageView
+                    android:id="@+id/next"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/next"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>
+
